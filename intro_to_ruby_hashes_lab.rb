@@ -13,7 +13,7 @@ end
 def monopoly_with_third_tier
   hash_2 = monopoly_with_second_tier()
   hash_2[:railroads][:rent_in_dollars] = {one_piece_owned: 25, two_pieces_owned: 50, three_pieces_owned: 100, four_pieces_owned: 200}
-  hash_2[:railroads][:names] = {key1: 1, key2: 2, key3: 3, key4: 4}
+  hash_2[:railroads][:names] = {reading_railroad: {}, key2: 2, key3: 3, key4: 4}
   return hash_2
 end
 
