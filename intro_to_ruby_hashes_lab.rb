@@ -6,7 +6,7 @@ end
 
 def monopoly_with_second_tier
   base_hash_1 = base_hash()
-  base_hash_1[:railroads] = {:pieces => "pieces"}
+  base_hash_1[:railroads] = {:pieces => 4}
   return base_hash_1
 end
 
